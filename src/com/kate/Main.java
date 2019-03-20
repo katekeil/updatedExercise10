@@ -44,7 +44,7 @@ class Main {
         Contact bob = new Contact("Allan", "allan@gmail.com");
         Contact arthur = new Contact("Charlie ","cbrecks2@cscc.edu");
         Collection collection = new Collection();
-        collection.addContact(bob);// pushing bob into the addContact method
+        collection.addContact(bob);
         collection.addContact(arthur);
 
         collection.seeContact();
